@@ -30,6 +30,10 @@ header {
   font-size: 40px;
 }
 
+ul {
+  margin: 0;
+}
+
 h1 > i {
   color: white;
 }
