@@ -1,0 +1,350 @@
+body {
+  background-color: #EEF0F1;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2F353C;
+  height: 130px; 
+}
+
+.header {
+  display: flex;
+  margin: 15px 0 2px 25px;
+  
+}
+
+.Navigation li {
+  display: inline;
+  position: relative;
+  right: 30px;
+  top: 80px;
+  margin: 20px;
+  color: gray;
+}
+
+.Navigation h1 {
+  color: white;
+  margin: 40px 20px 20px 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+}
+
+h1 > i {
+  color: white;
+}
+
+i{
+  color: #1EB9ED;
+  margin: 0 5px;
+}
+
+i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+li a img:hover {
+  color: white;
+}
+
+img {
+ width: 1%;
+ filter: grayscale(100%);
+}
+
+div img {
+  width: 20px;
+  height: 20px;
+}
+
+.Admin {
+  float: right;
+  margin: 0 10px;
+}
+
+.Admin .header h3 {
+  margin: 0 10px 0 10px;
+  color: #19A1E5;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+#circle {
+  color: gray;
+}
+
+#circle:hover{
+  color: white;
+}
+
+h1 {
+  clear: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2F353C;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ padding: 2px;
+}
+
+.cards {
+  height: 373px;
+  width: 270px;
+  margin: 5px;
+  background-color: #FCFCFC;
+  *flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: -webkit-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+}
+
+.Lebron-James {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/LebronJames.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+.James-Harden {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/JamesHarden.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+.Kawhi-Leonard {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/KawhiLeonard.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Stephen-Curry {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/StephenCurry.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Nikola-Jokic {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/NikolaJokic.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Giannis-Antetokounmpo {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/Giannis.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Kevin-Durant {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/KevinDurant.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Kyrie-Irving {
+  width: 270px;
+  height: 160px;
+  margin: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/KyrieIrving.jpeg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.icon i {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 20px 15px 10px 5px;
+  color: #415258;
+}
+
+.jersey {
+  text-align: right;
+  color: #EAEAEA;
+  margin: 0px;
+  padding: 20px 10px 0px 5px;
+}
+
+.jersey-no {
+  text-align: right;
+  color: #EAEAEA;
+  margin: 0px;
+  padding: 0px 10px 5px 5px;
+  font-size: 30px;
+}
+
+h4 {
+  margin: 15px 0px 0px 15px;
+  text-align: left;
+  color: #454F53;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.team {
+  margin: 0px 0px 0px 15px;
+  text-align: left;
+  color: #BEC3C4;
+  font-size: 13px;
+  font-weight: ;
+}
+
+.link {
+  background-color: #EBEEEF;
+  font-size: 12px;
+  color: gray;
+  margin: 15px;
+  padding: 8px;
+  overflow-wrap: break-word;
+  height: 25px;
+  text-align: left;
+}
+
+.link:hover {
+  color: #2C73CE;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h5 {
+  margin: 9px 0px 0px 15px;
+  text-align: left;
+  color: #454F53;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.position {
+  margin: 0px 0px 10px 15px;
+  text-align: left;
+  color: #454F53;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.stats {
+  margin: 5px 0px 0px 15px;
+  text-align: left;
+  color: #1EB9ED;
+  font-size: 20px;
+}
+
+.mobile-header {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+
+.Navigation {
+  display: none;
+}
+
+.mobile-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #2F353C; 
+  height: 210px;
+  color: white;
+}
+
+.mobile-header h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+}
+
+.mobile-header h4{
+  color: white;
+}
+
+button {
+  width: 100%;
+  height: 50%;
+  background-color: #2F353C;
+}
+
+button:hover {
+  color: #494949;
+  border-radius: 10px;
+  border-color: white;
+  transition: all 0.9s ease 0s;
+  cursor: pointer;
+}
+
+button h4:hover {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button h4 i:hover{
+  color: black;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ padding: 2px;
+}
+
+}
+
+
